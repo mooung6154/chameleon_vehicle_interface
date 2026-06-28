@@ -1,5 +1,3 @@
-<img width="2865" height="1682" alt="image" src="https://github.com/user-attachments/assets/33642f69-5dd4-47d3-9888-9f554db875b8" /># Chameleon Vehicle Interface
-
 ROS2 기반 카멜레온 4WS/4WD 플랫폼 Vehicle Interface 노드
 
 ## 개발 환경
@@ -37,8 +35,9 @@ ros2 topic pub /cmd_vel geometry_msgs/msg/Twist \
 ```
 
 ## 실행 결과
-  1. 노드 실행 화면
-<img width="2864" height="1694" alt="시작 부분" src="https://github.com/user-  attachments/assets/1d7f05b6-e153-4214-a67a-c9a77a0ba53b" />
+1. 노드 실행 화면
+<img width="2864" height="1694" alt="시작 부분" src="https://github.com/user-attachments/assets/06bc2de9-08a4-404c-9b6c-36c088a89387" />
+
 
 2. 4WS 변환 출력 화면(FL/FR/RL/RR 각도 확인)
 <img width="2866" height="1682" alt="실행" src="https://github.com/user-attachments/assets/db945ca0-d614-46a3-b64c-8d0bc88276db" />
